@@ -381,8 +381,8 @@ export interface ApiArticleArticle extends Schema.CollectionType {
           preset: 'toolbar';
         }
       >;
-    title: Attribute.String;
-    slug: Attribute.UID<'api::article.article', 'title'>;
+    title: Attribute.String & Attribute.Required;
+    slug: Attribute.UID<'api::article.article', 'title'> & Attribute.Required;
     tags: Attribute.Relation<
       'api::article.article',
       'manyToMany',

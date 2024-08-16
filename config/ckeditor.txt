@@ -1,0 +1,11 @@
+globalThis.CKEditorConfig = {
+    configs:{
+        toolbar:{
+            editorConfig:{
+                htmlEmbed: {
+                  showPreviews: false
+                }
+            }
+        }
+    }
+}
