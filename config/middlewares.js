@@ -19,6 +19,7 @@ module.exports = [
             `${process.env.AWS_BUCKET}.s3.${process.env.AWS_REGION}.amazonaws.com`,
             "https://www.youtube.com",
             "https://web.archive.org",
+            "https://market-assets.strapi.io",
           ],
           "media-src": [
             "'self'",
